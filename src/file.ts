@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import {S3} from 'aws-sdk'
 
 export const getAllFiles = (folderPath: string) => {
   let response: string[] = [];
